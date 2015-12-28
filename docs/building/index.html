@@ -1,0 +1,2679 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Building</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="alternate" type="application/rss+xml" title="Frida - Feed" href="/feed.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Recent commits to Frida’s master branch" href="https://github.com/frida/frida/frida/commits/master.atom" />
+  <link rel="stylesheet" href="/css/screen.css" />
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  <script src="/js/modernizr-2.5.3.min.js"></script>
+</head>
+
+
+<body class="wrap">
+  <header>
+  <nav class="mobile-nav show-on-mobiles">
+    <ul>
+  <li class="">
+    <a href="/">Overview</a>
+  </li>
+  <li class="current">
+    <a href="/docs/home/">Docs</span></a>
+  </li>
+  <li class="">
+    <a href="/news/">News</a>
+  </li>
+  <li class="">
+    <a href="https://github.com/frida/frida"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
+</ul>
+
+  </nav>
+  <div class="grid">
+    <div class="logotype unit one-third center-on-mobiles">
+      <a href="/">
+        <span>FЯIDA</span>
+        <img src="/img/logotype.svg" width="205" height="39" alt="">
+      </a>
+    </div>
+    <nav class="main-nav unit two-thirds hide-on-mobiles">
+      <ul>
+  <li class="">
+    <a href="/">Overview</a>
+  </li>
+  <li class="current">
+    <a href="/docs/home/">Docs</span></a>
+  </li>
+  <li class="">
+    <a href="/news/">News</a>
+  </li>
+  <li class="">
+    <a href="https://github.com/frida/frida"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
+</ul>
+
+    </nav>
+  </div>
+</header>
+
+
+    <section class="docs">
+    <div class="grid">
+
+      <div class="docs-nav-mobile unit whole show-on-mobiles">
+  <select onchange="if (this.value) window.location.href=this.value">
+    <option value="">Navigate the docs…</option>
+    <optgroup label="Getting started">
+      
+
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/home/">Welcome</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/quickstart/">Quick-start guide</option>
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/installation/">Installation</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/usage/">Basic Usage</option>
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/modes/">Modes of Operation</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/hacking/">Hacking</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/presentations/">Presentations</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+    </optgroup>
+    <optgroup label="Tutorials">
+      
+
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/functions/">Functions</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/messages/">Messages</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/ios/">iOS</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+      <option value="/docs/android/">Android</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+    </optgroup>
+    <optgroup label="API Reference">
+      
+
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/javascript-api/">JavaScript API</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+    </optgroup>
+    <optgroup label="Miscellaneous">
+      
+
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/troubleshooting/">Troubleshooting</option>
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+      <option value="/docs/building/">Building</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+    </optgroup>
+    <optgroup label="Meta">
+      
+
+
+  
+
+  
+    
+  
+    
+  
+    
+      <option value="/docs/contributing/">Contributing</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/gsoc-ideas-2015/">GSoC Ideas 2015</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="/docs/history/">History</option>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+    </optgroup>
+  </select>
+</div>
+
+      <div class="docs-nav-desktop unit one-quarter hide-on-mobiles">
+  <aside>
+    <h4>Getting Started</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/home/">Welcome</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/quickstart/">Quick-start guide</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/installation/">Installation</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/usage/">Basic Usage</a></li>
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/modes/">Modes of Operation</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/hacking/">Hacking</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/presentations/">Presentations</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+</ul>
+
+    <h4>Tutorials</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/functions/">Functions</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/messages/">Messages</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/ios/">iOS</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+      <li class=""><a href="/docs/android/">Android</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+</ul>
+
+    <h4>Tools</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/frida-cli/">Frida CLI</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/frida-ps/">frida-ps</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/frida-trace/">frida-trace</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/frida-discover/">frida-discover</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+</ul>
+
+    <h4>API Reference</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/javascript-api/">JavaScript API</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+</ul>
+
+    <h4>Miscellaneous</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/troubleshooting/">Troubleshooting</a></li>
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+      <li class="current"><a href="/docs/building/">Building</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+</ul>
+
+    <h4>Meta</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/contributing/">Contributing</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/gsoc-ideas-2015/">GSoC Ideas 2015</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="/docs/history/">History</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+</ul>
+
+  </aside>
+</div>
+
+
+      <div class="docs-articles unit three-quarters">
+        <article>
+          <h1>Building</h1>
+          <h2 id="building-frida">Building Frida</h2>
+
+<p>Frida has a rather complicated build system due to some design constraints:</p>
+
+<ul>
+  <li>
+    <p><strong>Short build time for new contributors.</strong> Frida downloads a prebuilt
+toolchain and SDK to save time. This requires a bit more fiddling to get the
+build environment just right, but it has the added benefit of providing a
+coherent build environment. For example we know we’re being built with just
+one version of autotools whether we’re on Mac or Linux.</p>
+  </li>
+  <li>
+    <p><strong>No moving parts.</strong> The final binary must be self-contained/portable. Some of
+Frida’s run-time components, like frida-helper, frida-agent, etc. will at some
+point need to be present on the filesystem. These binaries are serialized and
+linked into the Frida library (for example <code class="highlighter-rouge">_frida.so</code> in the case of
+frida-python), which means it’s portable without relying on external moving
+parts. At runtime these are written out to a temporary directory and later
+cleaned up.</p>
+  </li>
+  <li>
+    <p><strong>No runtime conflicts.</strong> frida-agent, the shared library injected into target
+processes, must have all of its dependencies (GLib, Gee, etc.) linked in to
+avoid runtime conflicts with target applications that happen to use the same
+libraries. Because of this, these libraries are compiled as static libraries.</p>
+  </li>
+  <li>
+    <p><strong>No resource leaks.</strong> frida-agent, the shared library injected into target
+processes, should not allocate any OS resources without releasing them when it
+is unloaded to avoid accumulating leaks in long-lived processes. Because Frida
+is mostly written in C and makes use of the excellent GLib library, which
+unfortunately doesn’t provide any way to fully clean up statically allocated
+resources, we had to patch that library to add support for this. Upstream
+doesn’t consider this a valid use-case, so unfortunately we need to maintain our
+fork of this library. This means we can’t make use of a system-wide GLib on
+Linux systems, which consequently makes the prebuilt SDK much larger.</p>
+  </li>
+</ul>
+
+<p>Frida’s build system tries to keep you sane by making use of a prebuilt
+toolchain and SDK for each platform. This is what’s used in the steps outlined
+below.</p>
+
+<h3 id="linux">Linux</h3>
+
+<ul>
+  <li>Make sure you have a:
+    <ul>
+      <li>Modern x86 system</li>
+      <li>Development toolchain:</li>
+    </ul>
+  </li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>sudo apt-get install build-essential gcc-multilib git lib32stdc++-4.9-dev <span class="se">\</span>
+    lib32z1-dev python-dev python3-dev zlib1g-dev</code></pre></figure>
+
+<ul>
+  <li>Clone <code class="highlighter-rouge">frida</code> and build it:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone git://github.com/frida/frida.git
+<span class="gp">$ </span><span class="nb">cd </span>frida
+<span class="gp">$ </span>make</code></pre></figure>
+
+<h3 id="mac">Mac</h3>
+
+<ul>
+  <li>Make sure you have the latest Xcode with command-line tools installed.</li>
+  <li>Clone <code class="highlighter-rouge">frida</code> and build it:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone git://github.com/frida/frida.git
+<span class="gp">$ </span><span class="nb">cd </span>frida
+<span class="gp">$ </span>make</code></pre></figure>
+
+<h3 id="windows">Windows</h3>
+
+<ul>
+  <li>Make sure you have:
+    <ul>
+      <li>64-bit version of Windows (32-bit will work but may require some fiddling)</li>
+      <li>Visual Studio 2013</li>
+      <li><a href="http://msysgit.github.com/">Git</a></li>
+      <li><a href="http://python.org/">Python 2.7 and 3.4</a>. You want both the 32- and the
+64-bit version of each, with the 32-bit versions installed in
+<code class="highlighter-rouge">C:\Program Files (x86)</code> and 64-bit ones installed in <code class="highlighter-rouge">C:\Program Files</code>.</li>
+      <li>Clone <code class="highlighter-rouge">frida</code>:</li>
+    </ul>
+  </li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone git://github.com/frida/frida.git
+<span class="gp">$ </span><span class="nb">cd </span>frida
+<span class="gp">$ </span>git submodule init
+<span class="gp">$ </span>git submodule update</code></pre></figure>
+
+<ul>
+  <li>Open <code class="highlighter-rouge">frida.sln</code> and build it.</li>
+</ul>
+
+<h2 id="building-the-toolchain-and-sdk">Building the toolchain and SDK</h2>
+
+<p>This should not be necessary unless you’re porting Frida to a new platform. The
+following steps assume you have the OS-specific prerequisites mentioned above.</p>
+
+<h3 id="unix">UNIX</h3>
+
+<ul>
+  <li>Make sure your system has the following goodies:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>sudo apt-get install bison build-essential flex gcc-multilib git <span class="se">\</span>
+    lib32stdc++-4.9-dev lib32z1-dev libglib2.0-dev python-dev python3-dev <span class="se">\</span>
+    zlib1g-dev</code></pre></figure>
+
+<p>Note that you may run into <a href="https://bugs.launchpad.net/ubuntu/+source/zlib/+bug/1155307">this bug</a>
+  when building a 32-bit SDK on recent Ubuntu releases. The workaround is:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="nv">$ </span>sudo ln -s /usr/include/x86_64-linux-gnu/zconf.h /usr/include</code></pre></figure>
+
+<ul>
+  <li>Clone the <code class="highlighter-rouge">frida-ci</code> repository and build away:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone git://github.com/frida/frida-ci.git
+<span class="gp">$ </span>mkdir tmp
+<span class="gp">$ </span><span class="nb">cd </span>tmp
+<span class="gp">$ </span>../frida-ci/create-toolchain-and-sdk.sh</code></pre></figure>
+
+<ul>
+  <li>Transfer the resulting toolchain and SDK to a web server somewhere:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>scp build/toolchain-<span class="k">*</span>.tar.bz2 your@own.server:
+<span class="gp">$ </span>scp build/sdk-<span class="k">*</span>.tar.bz2 your@own.server:</code></pre></figure>
+
+<ul>
+  <li>Now you can clone <code class="highlighter-rouge">frida</code> like above and adjust the URLs in
+<code class="highlighter-rouge">releng/setup-env.sh</code> (look for <code class="highlighter-rouge">download_command</code>) before running <code class="highlighter-rouge">make</code>.</li>
+</ul>
+
+<p>(Note: the <code class="highlighter-rouge">frida</code> module now has integrated support for building the SDK.
+For example: <code class="highlighter-rouge">make -f Makefile.sdk.mk FRIDA_HOST=android-arm</code>)</p>
+
+<h3 id="windows-1">Windows</h3>
+
+<ul>
+  <li>Prepare your system
+    <ul>
+      <li>Make sure that Visual Studio 2013 is installed.</li>
+      <li>Install
+<a href="http://launchpad.net/hsbuild/trunk/0.2/+download/hsbuild-0.2.msi">hsbuild-0.2.msi</a>.
+You need <a href="http://msysgit.github.com/">Git</a> and
+<a href="http://www.activestate.com/activeperl/">Perl</a> installed, and <code class="highlighter-rouge">perl</code> should be
+in your PATH. For packaging you will also need <a href="http://www.7-zip.org/">7-Zip</a>
+to be in your PATH.</li>
+      <li>Ensure that your Git configuration at
+<code class="highlighter-rouge">C:\Program Files (x86)\Git\etc\gitconfig</code> (or similar) has the following in
+ its <code class="highlighter-rouge">core</code> section:
+<code class="highlighter-rouge">
+autoCRLF = false
+</code></li>
+      <li>Also ensure that your environment does not have a <code class="highlighter-rouge">CC</code> environment variable
+defined (might have happened if you installed <code class="highlighter-rouge">msys</code> or <code class="highlighter-rouge">cygwin</code>).</li>
+      <li>Use <a href="http://bazaar.canonical.com/">bazaar</a> to check out our slightly
+modified HSBuild:</li>
+    </ul>
+  </li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>bzr branch lp:~oleavr/hsbuild/tweaks hsbuild</code></pre></figure>
+
+<ul>
+  <li>Open <code class="highlighter-rouge">msbuild\tasks\HSBuildTasks.sln</code> and build it in <code class="highlighter-rouge">Release</code> configuration.</li>
+  <li>Open <code class="highlighter-rouge">hsbuild\hsbuild.sln</code> and build it in <code class="highlighter-rouge">Release</code> configuration (with
+  Platform set to <code class="highlighter-rouge">x86</code>).</li>
+  <li>As Administrator, run <code class="highlighter-rouge">deploy.bat</code>, which will update the system-wide
+  HSBuild installation.</li>
+  <li>Clone the <code class="highlighter-rouge">frida-ci</code> repository:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone git://github.com/frida/frida-ci.git</code></pre></figure>
+
+<ul>
+  <li>Copy <code class="highlighter-rouge">frida-ci\Frida.props</code> next to HSBuild’s .targets/.props
+  files, typically at <code class="highlighter-rouge">C:\Program Files (x86)\MSBuild\HSBuild</code>.</li>
+  <li>Build it
+    <ul>
+      <li>Open <code class="highlighter-rouge">cmd.exe</code> and navigate to <code class="highlighter-rouge">frida-ci</code>.</li>
+      <li>Start the build process:</li>
+    </ul>
+  </li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>build-deps-windows.py</code></pre></figure>
+
+<ul>
+  <li>Transfer the resulting toolchain and SDK to a web server somewhere:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>scp toolchain-windows-<span class="k">*</span>.exe your@own.server:
+<span class="gp">$ </span>scp sdk-windows-<span class="k">*</span>.exe your@own.server:</code></pre></figure>
+
+<ul>
+  <li>Now you can clone <code class="highlighter-rouge">frida</code> like above and adjust the URLs in
+<code class="highlighter-rouge">releng\windows-toolchain.txt</code> and <code class="highlighter-rouge">releng\windows-sdk.txt</code> before opening
+<code class="highlighter-rouge">frida.sln</code>.</li>
+</ul>
+
+          <div class="section-nav">
+  <div class="left align-right">
+    
+      <a href="/docs/troubleshooting/" class="prev">
+        Back
+      </a>
+    
+  </div>
+  <div class="right align-left">
+    
+      <a href="/docs/contributing/" class="next">
+        Next
+      </a>
+    
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer>
+</footer>
+
+  
+
+
+  <!-- Google Analytics (http://google.com/analytics) -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46880695-1']);
+    _gaq.push(['_setDomainName', '']); // Multiple sub-domains
+    _gaq.push(['_setAllowLinker', true]); // Multiple TLDs
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+</body>
+</html>

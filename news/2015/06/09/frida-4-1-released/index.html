@@ -1,0 +1,516 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Frida 4.1 Released</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="alternate" type="application/rss+xml" title="Frida - Feed" href="/feed.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Recent commits to Frida’s master branch" href="https://github.com/frida/frida/frida/commits/master.atom" />
+  <link rel="stylesheet" href="/css/screen.css" />
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  <script src="/js/modernizr-2.5.3.min.js"></script>
+</head>
+
+
+<body class="wrap">
+  <header>
+  <nav class="mobile-nav show-on-mobiles">
+    <ul>
+  <li class="">
+    <a href="/">Overview</a>
+  </li>
+  <li class="">
+    <a href="/docs/home/">Docs</span></a>
+  </li>
+  <li class="current">
+    <a href="/news/">News</a>
+  </li>
+  <li class="">
+    <a href="https://github.com/frida/frida"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
+</ul>
+
+  </nav>
+  <div class="grid">
+    <div class="logotype unit one-third center-on-mobiles">
+      <a href="/">
+        <span>FЯIDA</span>
+        <img src="/img/logotype.svg" width="205" height="39" alt="">
+      </a>
+    </div>
+    <nav class="main-nav unit two-thirds hide-on-mobiles">
+      <ul>
+  <li class="">
+    <a href="/">Overview</a>
+  </li>
+  <li class="">
+    <a href="/docs/home/">Docs</span></a>
+  </li>
+  <li class="current">
+    <a href="/news/">News</a>
+  </li>
+  <li class="">
+    <a href="https://github.com/frida/frida"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
+</ul>
+
+    </nav>
+  </div>
+</header>
+
+
+    <section class="news">
+    <div class="grid">
+
+      <div class="docs-nav-mobile unit whole show-on-mobiles">
+  <select onchange="if (this.value) window.location.href=this.value">
+    <option value="">Navigate the blog…</option>
+    <option value="/news/">Home</option>
+    <optgroup label="v1.x">
+      
+      <option value="/news/2015/06/18/frida-4-2-released/">Frida 4.2 Released</option>
+      
+      <option value="/news/2015/06/09/frida-4-1-released/">Frida 4.1 Released</option>
+      
+      <option value="/news/2015/05/09/frida-4-0-0-released/">Frida 4.0.0 Released</option>
+      
+      <option value="/news/2015/03/20/frida-3-0-0-released/">Frida 3.0.0 Released</option>
+      
+      <option value="/news/2015/03/01/frida-2-0-2-released/">Frida 2.0.2 Released</option>
+      
+      <option value="/news/2015/03/01/frida-2-0-1-released/">Frida 2.0.1 Released</option>
+      
+      <option value="/news/2015/03/01/frida-2-0-0-released/">Frida 2.0.0 Released</option>
+      
+      <option value="/news/2015/02/23/frida-1-8-0-released/">Frida 1.8.0 Released</option>
+      
+      <option value="/news/2014/11/18/frida-1-6-8-released/">Frida 1.6.8 Released</option>
+      
+      <option value="/news/2014/11/03/frida-1-6-7-released/">Frida 1.6.7 Released</option>
+      
+      <option value="/news/2014/11/03/frida-1-6-6-released/">Frida 1.6.6 Released</option>
+      
+      <option value="/news/2014/10/29/frida-1-6-5-released/">Frida 1.6.5 Released</option>
+      
+      <option value="/news/2014/10/19/frida-1-6-4-released/">Frida 1.6.4 Released</option>
+      
+      <option value="/news/2014/08/25/frida-1-6-3-released/">Frida 1.6.3 Released</option>
+      
+      <option value="/news/2014/08/03/frida-1-6-2-released/">Frida 1.6.2 Released</option>
+      
+      <option value="/news/2014/07/26/frida-1-6-1-released/">Frida 1.6.1 Released</option>
+      
+      <option value="/news/2014/05/30/frida-1-6-0-released/">Frida 1.6.0 Released</option>
+      
+      <option value="/news/2014/05/14/frida-1-4-2-released/">Frida 1.4.2 Released</option>
+      
+      <option value="/news/2014/05/14/frida-1-4-1-released/">Frida 1.4.1 Released</option>
+      
+      <option value="/news/2014/05/04/frida-1-4-0-released/">Frida 1.4.0 Released</option>
+      
+      <option value="/news/2014/04/21/frida-1-2-1-released/">Frida 1.2.1 Released</option>
+      
+      <option value="/news/2014/04/17/frida-1-2-0-released/">Frida 1.2.0 Released</option>
+      
+      <option value="/news/2014/03/09/frida-1-0-11-released/">Frida 1.0.11 Released</option>
+      
+      <option value="/news/2014/02/16/frida-1-0-10-released/">Frida 1.0.10 Released</option>
+      
+      <option value="/news/2014/01/25/frida-1-0-9-released/">Frida 1.0.9 Released</option>
+      
+      <option value="/news/2014/01/15/frida-1-0-8-released/">Frida 1.0.8 Released</option>
+      
+      <option value="/news/2014/01/12/frida-1-0-7-released/">Frida 1.0.7 Released</option>
+      
+      <option value="/news/2014/01/11/frida-1-0-6-released/">Frida 1.0.6 Released</option>
+      
+      <option value="/news/2014/01/05/frida-1-0-5-released/">Frida 1.0.5 Released</option>
+      
+    </optgroup>
+  </select>
+</div>
+
+      <div class="news-nav-desktop unit one-quarter hide-on-mobiles">
+  <aside>
+    <ul>
+      <li class="">
+        <a href="/news/">All News</a>
+      </li>
+      <li class="">
+        <a href="/news/releases/">Frida Releases</a>
+      </li>
+    </ul>
+    <h4>Recent Releases</h4>
+    <ul>
+      
+      <li class="">
+        <a href="/news/2015/06/18/frida-4-2-released/">Version 4.2</a>
+      </li>
+      
+      <li class="current">
+        <a href="/news/2015/06/09/frida-4-1-released/">Version 4.1</a>
+      </li>
+      
+      <li class="">
+        <a href="/news/2015/05/09/frida-4-0-0-released/">Version 4.0.0</a>
+      </li>
+      
+      <li class="">
+        <a href="/news/2015/03/20/frida-3-0-0-released/">Version 3.0.0</a>
+      </li>
+      
+      <li class="">
+        <a href="/news/2015/03/01/frida-2-0-2-released/">Version 2.0.2</a>
+      </li>
+      
+      <li>
+        <a href="/docs/history/">History »</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+
+      <div class="news-articles unit three-quarters">
+        <article>
+  <h2>
+    Frida 4.1 Released
+    <a href="/news/2015/06/09/frida-4-1-released/" class="permalink" title="Permalink">∞</a>
+  </h2>
+  <span class="post-category">
+    
+    <span class="label">release</span>
+    
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      09 Jun 2015
+    </span>
+    <a href="https://github.com/oleavr" class="post-author">
+      <img src="https://github.com/oleavr.png" class="avatar" />
+      oleavr
+    </a>
+  </div>
+  <p class="post-content">
+    <p>It’s release o’clock, and this time we’re taking the iOS support to the next
+level while also bringing some solid quality improvements. I’m also really
+excited to announce that I’ve recently joined <a href="https://www.nowsecure.com/">NowSecure</a>,
+and the awesomeness of this release is no conincidence.</p>
+
+<p>Let’s start with a brand new iOS feature. It’s now possible to list installed
+apps, which <em>frida-ps</em> can do for you:</p>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span>frida-ps -U -a
+  PID NAME        IDENTIFIER
+10582 Facebook    com.facebook.Facebook
+11066 IRCCloud    com.irccloud.IRCCloud
+  451 Mail        com.apple.mobilemail
+10339 Mailbox     com.orchestra.v2
+ 6866 Messages    com.apple.MobileSMS
+10626 Messenger   com.facebook.Messenger
+11043 Settings    com.apple.Preferences
+10542 Skype       com.skype.skype
+11218 Slack       com.tinyspeck.chatlyio
+11052 Snapchat    com.toyopagroup.picaboo
+<span class="err">$</span></code></pre></figure>
+
+<p>Add the <code class="highlighter-rouge">-i</code> switch and it will also include all installed applications, and
+not just those of them that are currently running.</p>
+
+<p>This is also available from your language binding of choice, e.g. from Python:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">frida</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">iphone</span> <span class="o">=</span> <span class="n">frida</span><span class="o">.</span><span class="n">get_usb_device</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">repr</span><span class="p">,</span> <span class="n">iphone</span><span class="o">.</span><span class="n">enumerate_applications</span><span class="p">())))</span>
+<span class="n">Application</span><span class="p">(</span><span class="n">identifier</span><span class="o">=</span><span class="s">"com.google.ios.youtube"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">"YouTube"</span><span class="p">)</span>
+<span class="n">Application</span><span class="p">(</span><span class="n">identifier</span><span class="o">=</span><span class="s">"com.toyopagroup.picaboo"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">"Snapchat"</span><span class="p">)</span>
+<span class="n">Application</span><span class="p">(</span><span class="n">identifier</span><span class="o">=</span><span class="s">"com.skype.skype"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">"Skype"</span><span class="p">,</span> <span class="n">pid</span><span class="o">=</span><span class="mi">10542</span><span class="p">)</span>
+<span class="err">…</span>
+<span class="o">&gt;&gt;&gt;</span></code></pre></figure>
+
+<p>That’s cool, but wouldn’t you like to do early instrumentation of those apps?
+Now you can do that too, by just asking us to spawn an app identifier:</p>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span>frida-trace -U -f com.toyopagroup.picaboo -I <span class="s2">"libcommonCrypto*"</span></code></pre></figure>
+
+<p>Or at the API level:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">frida</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">iphone</span> <span class="o">=</span> <span class="n">frida</span><span class="o">.</span><span class="n">get_usb_device</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">pid</span> <span class="o">=</span> <span class="n">iphone</span><span class="o">.</span><span class="n">spawn</span><span class="p">([</span><span class="s">"com.toyopagroup.picaboo"</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">snapchat</span> <span class="o">=</span> <span class="n">iphone</span><span class="o">.</span><span class="n">attach</span><span class="p">(</span><span class="n">pid</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="err">…</span><span class="nb">apply</span> <span class="n">instrumentation</span><span class="err">…</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">iphone</span><span class="o">.</span><span class="n">resume</span><span class="p">(</span><span class="n">pid</span><span class="p">)</span></code></pre></figure>
+
+<p>Note that we piggy-back on <em>Cydia Substrate</em> for the early launch part in order
+to maximize interoperability; after all it’s not too good if multiple frameworks
+all inject code into <em>launchd</em> and risk stepping on each others’ toes. This
+dependency is however a soft one, so we’ll throw an exception if Substrate isn’t
+installed when trying to call <code class="highlighter-rouge">spawn()</code> with an app identifier.</p>
+
+<p>So, early instrumentation of iOS apps is pretty cool. But, those applications
+are typically consuming tons of Objective-C APIs, and if we want to instrument
+them we often find ourselves having to create new Objective-C classes in order
+to create delegates to insert between the application and the API. Wouldn’t it
+be nice if such Objective-C classes could be created in pure JavaScript? Now
+they can:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">MyConnectionDelegateProxy</span> <span class="o">=</span> <span class="nx">ObjC</span><span class="p">.</span><span class="nx">registerClass</span><span class="p">({</span>
+  <span class="na">name</span><span class="p">:</span> <span class="s1">'MyConnectionDelegateProxy'</span><span class="p">,</span>
+  <span class="na">super</span><span class="p">:</span> <span class="nx">ObjC</span><span class="p">.</span><span class="nx">classes</span><span class="p">.</span><span class="nx">NSObject</span><span class="p">,</span>
+  <span class="na">protocols</span><span class="p">:</span> <span class="p">[</span><span class="nx">ObjC</span><span class="p">.</span><span class="nx">protocols</span><span class="p">.</span><span class="nx">NSURLConnectionDataDelegate</span><span class="p">],</span>
+  <span class="na">methods</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s1">'- init'</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+      <span class="kr">const</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="kr">super</span><span class="p">.</span><span class="nx">init</span><span class="p">();</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">self</span> <span class="o">!==</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">ObjC</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="nx">self</span><span class="p">,</span> <span class="p">{</span>
+          <span class="na">foo</span><span class="p">:</span> <span class="mi">1234</span>
+        <span class="p">});</span>
+      <span class="p">}</span>
+      <span class="k">return</span> <span class="nx">self</span><span class="p">;</span>
+    <span class="p">},</span>
+    <span class="s1">'- dealloc'</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+      <span class="nx">ObjC</span><span class="p">.</span><span class="nx">unbind</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">self</span><span class="p">);</span>
+      <span class="k">this</span><span class="p">.</span><span class="kr">super</span><span class="p">.</span><span class="nx">dealloc</span><span class="p">();</span>
+    <span class="p">},</span>
+    <span class="s1">'- connection:didReceiveResponse:'</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">resp</span><span class="p">)</span> <span class="p">{</span>
+      <span class="cm">/* this.data.foo === 1234 */</span>
+    <span class="p">},</span>
+    <span class="cm">/*
+     * But those previous methods are declared assuming that
+     * either the super-class or a protocol we conform to has
+     * the same method so we can grab its type information.
+     * However, if that's not the case, you would write it
+     * like this:
+     */</span>
+    <span class="s1">'- connection:didReceiveResponse:'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nl">retType</span><span class="p">:</span> <span class="s1">'void'</span><span class="p">,</span>
+      <span class="na">argTypes</span><span class="p">:</span> <span class="p">[</span><span class="s1">'object'</span><span class="p">,</span> <span class="s1">'object'</span><span class="p">],</span>
+      <span class="na">implementation</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">resp</span><span class="p">)</span> <span class="p">{</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="cm">/* Or grab it from an existing class: */</span>
+    <span class="s1">'- connection:didReceiveResponse:'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nl">types</span><span class="p">:</span> <span class="nx">ObjC</span><span class="p">.</span><span class="nx">classes</span>
+          <span class="p">.</span><span class="nx">Foo</span><span class="p">[</span><span class="s1">'- connection:didReceiveResponse:'</span><span class="p">].</span><span class="nx">types</span><span class="p">,</span>
+      <span class="na">implementation</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">resp</span><span class="p">)</span> <span class="p">{</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="cm">/* Or from an existing protocol: */</span>
+    <span class="s1">'- connection:didReceiveResponse:'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nl">types</span><span class="p">:</span> <span class="nx">ObjC</span><span class="p">.</span><span class="nx">protocols</span><span class="p">.</span><span class="nx">NSURLConnectionDataDelegate</span>
+          <span class="p">.</span><span class="nx">methods</span><span class="p">[</span><span class="s1">'- connection:didReceiveResponse:'</span><span class="p">].</span><span class="nx">types</span><span class="p">,</span>
+      <span class="na">implementation</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">resp</span><span class="p">)</span> <span class="p">{</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="cm">/* Or write the signature by hand if you really want to: */</span>
+    <span class="s1">'- connection:didReceiveResponse:'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nl">types</span><span class="p">:</span> <span class="s1">'v32@0:8@16@24'</span><span class="p">,</span>
+      <span class="na">implementation</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">resp</span><span class="p">)</span> <span class="p">{</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+
+<span class="kr">const</span> <span class="nx">proxy</span> <span class="o">=</span> <span class="nx">MyConnectionDelegateProxy</span><span class="p">.</span><span class="nx">alloc</span><span class="p">().</span><span class="nx">init</span><span class="p">();</span>
+<span class="cm">/* use `proxy`, and later: */</span>
+<span class="nx">proxy</span><span class="p">.</span><span class="nx">release</span><span class="p">();</span></code></pre></figure>
+
+<p>Though most of the time you’d like to build a proxy object where you
+pass on everything and only do some logging for the few methods you
+actually care about. Check this out:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">MyConnectionDelegateProxy</span> <span class="o">=</span> <span class="nx">ObjC</span><span class="p">.</span><span class="nx">registerProxy</span><span class="p">({</span>
+  <span class="na">protocols</span><span class="p">:</span> <span class="p">[</span><span class="nx">ObjC</span><span class="p">.</span><span class="nx">protocols</span><span class="p">.</span><span class="nx">NSURLConnectionDataDelegate</span><span class="p">],</span>
+  <span class="na">methods</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s1">'- connection:didReceiveResponse:'</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">resp</span><span class="p">)</span> <span class="p">{</span>
+      <span class="cm">/* fancy logging code here */</span>
+      <span class="cm">/* this.data.foo === 1234 */</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">target</span>
+          <span class="p">.</span><span class="nx">connection_didReceiveResponse_</span><span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">resp</span><span class="p">);</span>
+    <span class="p">},</span>
+    <span class="s1">'- connection:didReceiveData:'</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+      <span class="cm">/* other logging code here */</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">target</span>
+          <span class="p">.</span><span class="nx">connection_didReceiveData_</span><span class="p">(</span><span class="nx">conn</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">},</span>
+  <span class="na">events</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">forward</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'*** forwarding: '</span> <span class="o">+</span> <span class="nx">name</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+
+<span class="kr">const</span> <span class="nx">method</span> <span class="o">=</span> <span class="nx">ObjC</span><span class="p">.</span><span class="nx">classes</span><span class="p">.</span><span class="nx">NSURLConnection</span><span class="p">[</span>
+    <span class="s1">'- initWithRequest:delegate:startImmediately:'</span><span class="p">];</span>
+<span class="nx">Interceptor</span><span class="p">.</span><span class="nx">attach</span><span class="p">(</span><span class="nx">method</span><span class="p">.</span><span class="nx">implementation</span><span class="p">,</span> <span class="p">{</span>
+  <span class="na">onEnter</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">args</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">args</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MyConnectionDelegateProxy</span><span class="p">(</span><span class="nx">args</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="p">{</span>
+      <span class="na">foo</span><span class="p">:</span> <span class="mi">1234</span>
+    <span class="p">});</span>
+  <span class="p">}</span>
+<span class="p">});</span></code></pre></figure>
+
+<p>So that’s Objective-C. The Dalvik integration also got some sweet new API for
+enumerating loaded classes thanks to <a href="https://github.com/marc1006">@marc1006</a>,
+who also fixed our handling of static methods and being able to return booleans
+from overriden implementations.</p>
+
+<p>We also got lots of awesome improvements from <a href="https://github.com/Tyilo">@Tyilo</a>
+who helped improve the ObjC integration, beat the REPL into better shape, added
+APIs for enumerating malloc ranges, and added some convenience APIs to
+<em>NativePointer</em>.</p>
+
+<p>While all of this was going on, <a href="https://github.com/s1341">@s1341</a> has been
+hard at work doing an amazing job porting Frida to QNX, which is now really
+close to working like a charm.</p>
+
+<p>Let’s run through the remaining changes:</p>
+
+<p>4.0.1:</p>
+
+<ul>
+  <li>objc: support for more types</li>
+  <li>frida-trace: fix ObjC tracing regression</li>
+</ul>
+
+<p>4.0.2:</p>
+
+<ul>
+  <li>frida-node: fix encoding of the <em>pixels</em> property</li>
+</ul>
+
+<p>4.0.3:</p>
+
+<ul>
+  <li>frida-repl: fix Windows regression</li>
+</ul>
+
+<p>4.0.5:</p>
+
+<ul>
+  <li>objc: support for more types and better type checking</li>
+  <li>objc: arm64 now working properly</li>
+  <li>frida-repl: allow variables to be created</li>
+</ul>
+
+<p>4.0.6:</p>
+
+<ul>
+  <li>platform: support passing a plain array of data to <em>send()</em></li>
+  <li>arm: support for relocating <em>cbz</em>/<em>cbnz</em> instructions</li>
+</ul>
+
+<p>4.1.0:</p>
+
+<ul>
+  <li>platform: fix spawning of child processes that write to stdout</li>
+  <li>platform: fix NativeCallback’s handling of <em>bool</em>/<em>int8</em>/<em>uint8</em> return
+values (this was preventing Dalvik method overrides from being able to
+return <em>false</em>).</li>
+  <li>platform: allow <em>Memory.readByteArray()</em> with length &lt; 1</li>
+  <li>arm: support for relocating the <em>ldrpc t2</em> instruction</li>
+  <li>arm: improved redirect resolver</li>
+  <li>arm64: fix relocation of the <em>adrp</em> instruction</li>
+  <li>arm64: support for relocating PC-relative <em>ldr</em> instruction</li>
+  <li>dalvik: add <em>Dalvik.enumerateLoadedClasses()</em></li>
+  <li>dalvik: fix handling of static methods</li>
+  <li>python: fix <em>console.log()</em> on Windows</li>
+  <li>frida-repl: bugfixes and improvements</li>
+  <li>frida-trace: glob support for tracing ObjC methods</li>
+</ul>
+
+<p>4.1.1:</p>
+
+<ul>
+  <li>platform: add missing pid field in <em>enumerate_applications()</em></li>
+</ul>
+
+<p>4.1.2:</p>
+
+<ul>
+  <li>objc: class and proxy creation APIs</li>
+  <li>objc: new <em>ObjC.protocols</em> API for enumerating protocols</li>
+</ul>
+
+<p>4.1.3:</p>
+
+<ul>
+  <li>platform: improved concurrency by releasing V8 lock while calling
+NativeFunction</li>
+  <li>platform: add <em>Process.getModuleByName(name)</em></li>
+  <li>platform: faster and more robust detach</li>
+  <li>python: stability improvements in CLI tools</li>
+  <li>frida-repl: replace <em>readline</em> with <em>prompt-toolkit</em></li>
+</ul>
+
+<p>4.1.4:</p>
+
+<ul>
+  <li>platform: faster and more robust teardown</li>
+  <li>frida-server: clean up on <em>SIGINT</em> and <em>SIGTERM</em></li>
+</ul>
+
+<p>4.1.5:</p>
+
+<ul>
+  <li>frida-ps: add support for listing applications</li>
+</ul>
+
+<p>4.1.6:</p>
+
+<ul>
+  <li>platform: fix crash on spawn on Mac, iOS and Linux</li>
+  <li>platform: add <em>NativePointer.compare()</em> and <em>NativePointer.equals()</em></li>
+  <li>platform: add <em>Process.enumerateMallocRanges{,Sync}()</em></li>
+  <li>frida-trace: switch from Enter to Ctrl+C for stopping</li>
+  <li>frida-trace: fix spawning of iOS apps</li>
+  <li>frida-repl: add prototype names to autocomplete</li>
+</ul>
+
+<p>4.1.7:</p>
+
+<ul>
+  <li>python: CLI tools stability improvements</li>
+</ul>
+
+<p>That’s all for now. Please help spread the word by sharing this post across
+the inter-webs. We’re still quite small as an open source project, so
+word-of-mouth marketing means a lot to us.</p>
+
+<p>Enjoy!</p>
+
+  </p>
+</article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer>
+</footer>
+
+  
+
+
+  <!-- Google Analytics (http://google.com/analytics) -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46880695-1']);
+    _gaq.push(['_setDomainName', '']); // Multiple sub-domains
+    _gaq.push(['_setAllowLinker', true]); // Multiple TLDs
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+</body>
+</html>
